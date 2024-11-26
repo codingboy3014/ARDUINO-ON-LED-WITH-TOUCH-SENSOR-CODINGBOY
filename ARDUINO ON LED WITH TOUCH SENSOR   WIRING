@@ -1,0 +1,23 @@
+Components:
+Arduino Uno
+Touch Sensor Module (e.g., TTP223)
+LED (Built-in LED on pin 13 of the Arduino Uno)
+Resistor (220Ω) (only needed if you're using an external LED)
+Jumper Wires
+Breadboard (optional)
+
+
+Connections:
+
+Touch Sensor Module (e.g., TTP223):
+VCC → 5V on Arduino
+GND → GND on Arduino
+OUT → Pin 2 on Arduino
+
+LED (Built-in LED on Arduino Pin 13):
+
+Pin 13 on the Arduino Uno has a built-in LED, so no external LED is needed. You can use this pin directly to control the LED.
+If you're using an external LED:
+
+Anode (long leg) → Pin 13 on Arduino (through a 220Ω resistor)
+Cathode (short leg) → GND on Arduino
